@@ -6,41 +6,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>RØDE Microphones</title>
     <script src="https://cdn.tailwindcss.com"></script>
-    <!-- tailwind configuration -->
-    <script>
-        tailwind.config = {
-            theme: {
-                extend: {
-                    screens: {
-                        'xl': '1400px',
-                        // => @media (min-width: 992px) { ... }
-                    },
-                },
-            },
-        }
-    </script>
 </head>
 <body>
     <!-- Header -->
     <header>
         <!-- top header -->
-        <div class="border-b-2 hidden md:block">
+        <div class="border-b-2 hidden md:block p-1 2xl:p-3">
             <div class="w-10/12 mx-auto md:flex justify-between items-center">
                 <img src="./assets/location.svg" alt="">
                 <img src="./assets/user.svg" alt="">
             </div>
         </div>
         <!-- bottom header -->
-        <div class="flex justify-around items-center p-4 h-14 bg-white">
+        <div class="flex justify-around items-center p-4 xl:p-10 h-14 bg-white">
             <img class="md:hidden" src="./assets/icons8-menu-30.png" alt="">
             <img class="md:hidden" src="./assets/location.svg" alt="">
-            <img class="w-16" src="./assets/logo.svg" alt="" class="logo">
+            <img class="w-16 xl:w-24 2xl:w-32" src="./assets/logo.svg" alt="" class="logo">
             <nav class="hidden md:flex flex-row justify-around items-center w-5/12">
-                <li class="list-none text-xs font-medium">PRODUCTS</li>
-                <li class="list-none text-xs font-medium">USER GUIDE</li>
-                <li class="list-none text-xs font-medium">SOLUTIONS</li>
-                <li class="list-none text-xs font-medium">APPAREL</li>
-                <li class="list-none text-xs font-medium">SUPPORT</li>
+                <li class="list-none text-xs xl:text-base 2xl:text-2xl xl:font-normal 2xl:font-semibold font-medium">
+                    PRODUCTS</li>
+                <li class="list-none text-xs xl:text-base 2xl:text-2xl xl:font-normal 2xl:font-semibold font-medium">
+                    USER
+                    GUIDE</li>
+                <li class="list-none text-xs xl:text-base 2xl:text-2xl xl:font-normal 2xl:font-semibold font-medium">
+                    SOLUTIONS</li>
+                <li class="list-none text-xs xl:text-base 2xl:text-2xl xl:font-normal 2xl:font-semibold font-medium">
+                    APPAREL</li>
+                <li class="list-none text-xs xl:text-base 2xl:text-2xl xl:font-normal 2xl:font-semibold font-medium">
+                    SUPPORT</li>
             </nav>
             <img src="./assets/search.svg" alt="">
         </div>
@@ -52,19 +45,21 @@
 
         <!-- text section -->
         <div
-            class="w-[90vw] mx-auto md:mx-0 md:w-[40vw] xl:w-[45vw] text-center md:absolute top-[30%] right-[10%] md:ml-16 p-5 space-y-5 xl:space-y-8">
+            class="w-[90vw] mx-auto md:mx-0 md:w-[40vw] xl:w-[40vw] text-center md:absolute top-[30%] right-[10%] md:ml-16 p-5 space-y-5 xl:space-y-6">
             <img src="https://edge.rode.com/images/page/1/modules/5813/RODECasterProII_PL_PI_01.svg" alt="">
-            <h1 class=" text-white text-xl xl:text-6xl font-medium">
+            <h1 class=" text-white text-xl xl:text-2xl 2xl:text-4xl font-medium 2xl:font-bold">
                 The Revolution Is Here
             </h1>
-            <p class="text-[rgb(127,127,127)] text-sm xl:font-semibold xl:text-4xl">The RØDECaster Pro II is the world's
+            <p class="text-[rgb(127,127,127)] text-sm xl:font-semibold  xl:text-base 2xl:text-3xl">The RØDECaster Pro II
+                is the
+                world's
                 most powerful
                 all-in-one audio solution for streamers, podcasters, musicians, and creators. Take your content to the
                 next level.</p>
             <div class="buttons space-x-4">
-                <button class="text-[rgb(192,173,126)] xl:text-4xl font-bold">Learn More ></button>
+                <button class="text-[rgb(192,173,126)] xl:text-lg 2xl:text-2xl font-semibold">Learn More ></button>
                 <button
-                    class="bg-[rgb(192,173,126)] text-white text-xs xl:text-4xl font-bold rounded-2xl px-4 py-2 xl:px-5 xl:py-3 ">BUY
+                    class="bg-[rgb(192,173,126)] text-white text-xs xl:text-lg 2xl:text-2xl font-semibold rounded-3xl px-5 py-1">BUY
                     NOW</button>
             </div>
         </div>
@@ -97,21 +92,22 @@
 
         <!-- text section -->
         <div
-            class="w-[90vw] mx-auto md:mx-0 md:w-[40vw] xl:w-[45vw] text-center md:absolute top-[30%] md:ml-16 p-5 space-y-5 xl:space-y-8">
+            class="w-[90vw] mx-auto md:mx-0 md:w-[40vw] text-center md:absolute top-[30%] md:ml-16 p-5 space-y-5 xl:space-y-6">
             <img src="https://edge.rode.com/images/page/1/modules/5873/NTH-100_PL_P_RGB_01.svg" alt="">
-            <h1 class="text-xl xl:text-6xl font-medium">
+            <h1 class="text-xl xl:text-2xl font-medium 2xl:text-4xl 2xl:font-bold">
                 Your Search For The Perfect Headphones Is Over
             </h1>
-            <p class="text-[rgb(127,127,127)] text-sm xl:font-semibold xl:text-4xl">Experience sound like never before
+            <p class="text-[rgb(127,127,127)] text-sm xl:font-normal  xl:text-lg 2xl:text-3xl 2xl:font-semibold">
+                Experience sound like never before
                 with the NTH-100s.
                 Exceptional
                 sonic
                 performance, superior comfort and
                 iconic looks that inspires creativity.</p>
             <div class="buttons space-x-4">
-                <button class="text-[rgb(192,173,126)] xl:text-4xl font-bold">Learn More ></button>
+                <button class="text-[rgb(192,173,126)] xl:text-lg 2xl:text-2xl font-semibold">Learn More ></button>
                 <button
-                    class="bg-[rgb(192,173,126)] text-white text-xs xl:text-4xl font-bold rounded-2xl px-4 py-2 xl:px-5 xl:py-3 ">BUY
+                    class="bg-[rgb(192,173,126)] text-white text-xs xl:text-lg 2xl:text-2xl font-semibold rounded-3xl px-5 py-1">BUY
                     NOW</button>
             </div>
         </div>
@@ -123,19 +119,20 @@
 
         <!-- text section -->
         <div
-            class="w-[90vw] mx-auto md:mx-0 md:w-[40vw] xl:w-[45vw] text-center md:absolute top-[20%] right-[5%]  md:ml-16 p-5 space-y-5 xl:space-y-8">
+            class="w-[90vw] mx-auto md:mx-0 md:w-[40vw] text-center md:absolute top-[20%] right-[5%]  md:ml-16 p-5 space-y-5 xl:space-y-6">
             <img src="https://edge.rode.com/images/page/1/modules/5914/NT-USB_PL_P_01.svg" alt="">
-            <h1 class=" text-black text-xl xl:text-6xl font-medium">
+            <h1 class=" text-black text-xl xl:text-2xl 2xl:text-4xl font-medium 2xl:font-bold">
                 Studio-Quality Recording, Made Simple
             </h1>
-            <p class="text-[rgb(127,127,127)] text-sm xl:font-semibold xl:text-4xl">The NT-USB is a
+            <p class="text-[rgb(127,127,127)] text-sm xl:font-normal 2xl:font-semibold xl:text-lg 2xl:text-2xl">The
+                NT-USB is a
                 studio-quality USB condenser
                 microphone that offers impeccable audio, elegant looks and premium features, all in an easy-to-use form
                 factor, the NT-USB will have you sounding like a pro in seconds.</p>
             <div class="buttons space-x-4">
-                <button class="text-[rgb(192,173,126)] xl:text-4xl font-bold">Learn More ></button>
+                <button class="text-[rgb(192,173,126)] xl:text-lg 2xl:text-2xl font-semibold">Learn More ></button>
                 <button
-                    class="bg-[rgb(192,173,126)] text-white text-xs xl:text-4xl font-bold rounded-2xl px-4 py-2 xl:px-5 xl:py-3 ">BUY
+                    class="bg-[rgb(192,173,126)] text-white text-xs xl:text-lg 2xl:text-2xl font-semibold rounded-3xl px-5 py-1">BUY
                     NOW</button>
             </div>
         </div>
@@ -166,19 +163,19 @@
         class="bg-[url('https://edge.rode.com/images/page/1/modules/1508/rode-podmic-webheader-1920x700-rgb%20(2).jpg')] bg-cover bg-no-repeat bg-center md:h-[90vh] md:relative hidden md:block">
         <!-- text Section -->
         <div
-            class="w-[90vw] mx-auto md:mx-0 md:w-[40vw] xl:w-[45vw] text-center md:absolute top-[30%] md:ml-16 p-5 space-y-5 xl:space-y-8">
+            class="w-[90vw] mx-auto md:mx-0 md:w-[40vw] text-center md:absolute top-[30%] md:ml-16 p-5 space-y-5 xl:space-y-4">
             <img src="https://edge.rode.com/images/page/1/modules/1508/PodMic_PL_PI_01.svg" alt="">
-            <h1 class="text-xl xl:text-6xl font-medium">
+            <h1 class="text-white text-xl xl:text-2xl font-medium 2xl:text-4xl 2xl:font-bold">
                 Broadcast-grade Dynamic Microphone
             </h1>
-            <p class="text-white text-sm xl:font-semibold xl:text-4xl">Give your voice that
+            <p class="text-white text-sm xl:font-normal xl:text-lg 2xl:text-3xl 2xl:font-semibold">Give your voice that
                 rich, broadcast
                 sound with the
                 PodMic. Perfect for livestreaming, voice-over, podcasting and gameplay.</p>
             <div class="buttons space-x-4">
-                <button class="text-[rgb(192,173,126)] xl:text-4xl font-bold">Learn More ></button>
+                <button class="text-[rgb(192,173,126)]  xl:text-lg 2xl:text-2xl font-semibold">Learn More ></button>
                 <button
-                    class="bg-[rgb(192,173,126)] text-white text-xs xl:text-4xl font-bold rounded-2xl px-4 py-2 xl:px-5 xl:py-3 ">BUY
+                    class="bg-[rgb(192,173,126)] text-white text-xs xl:text-lg 2xl:text-2xl font-semibold rounded-3xl px-5 py-1">BUY
                     NOW</button>
             </div>
         </div>
@@ -208,19 +205,20 @@
         class="bg-[url('https://edge.rode.com/images/page/1/modules/314/WIGOII-WEBHEADER-02.jpg')] bg-cover bg-no-repeat bg-center md:h-[95vh] md:relative hidden md:block">
         <!-- text section -->
         <div
-            class="w-[90vw] mx-auto md:mx-0 md:w-[40vw] xl:w-[45vw] text-center md:absolute top-[30%] right-[10%] xl:right-[5%] md:ml-16 p-5 space-y-5 xl:space-y-8">
+            class="w-[90vw] mx-auto md:mx-0 md:w-[40vw] text-center md:absolute top-[30%] right-[10%] xl:right-[5%] md:ml-16 p-5 space-y-5 xl:space-y-4">
             <img src="https://edge.rode.com/images/page/1/modules/314/WIGO_II_PL_PI_01.svg" alt="">
-            <h1 class=" text-white text-xl xl:text-6xl font-medium">
+            <h1 class=" text-white text-xl xl:text-2xl font-medium 2xl:text-4xl 2xl:font-bold">
                 Next Generation Wireless Audio
             </h1>
-            <p class="text-[rgb(127,127,127)] text-sm xl:font-semibold xl:text-4xl">The Wireless GO II is the world's
+            <p class="text-[rgb(127,127,127)] text-sm xl:font-normal xl:text-lg 2xl:text-3xl 2xl:font-semibold">The
+                Wireless GO II is the world's
                 most powerful and
                 versatile wireless microphone. With an unparalleled feature set and ultra-compact form factor, this is
                 next generation wireless audio for every creator.</p>
             <div class="buttons space-x-4">
-                <button class="text-[rgb(192,173,126)] xl:text-4xl font-bold">Learn More ></button>
+                <button class="text-[rgb(192,173,126)]  xl:text-lg 2xl:text-2xl font-semibold">Learn More ></button>
                 <button
-                    class="bg-[rgb(192,173,126)] text-white text-xs xl:text-4xl font-bold rounded-2xl px-4 py-2 xl:px-5 xl:py-3 ">BUY
+                    class="bg-[rgb(192,173,126)] text-white text-xs xl:text-lg 2xl:text-2xl font-semibold rounded-3xl px-5 py-1">BUY
                     NOW</button>
             </div>
         </div>
@@ -252,18 +250,19 @@
         class="bg-[url('https://edge.rode.com/images/page/1/modules/5303/rode-nt-usb-mini-webheader-1920x700-rgb%20(2).jpg')] bg-cover bg-no-repeat bg-center md:h-[95vh] md:relative hidden md:block">
         <!-- text section -->
         <div
-            class="w-[90vw] mx-auto md:mx-0 md:w-[40vw] xl:w-[45vw] text-center md:absolute top-[30%] left-[3%] md:ml-16 p-5 space-y-5 xl:space-y-8">
+            class="w-[90vw] mx-auto md:mx-0 md:w-[40vw] text-center md:absolute top-[30%] left-[3%] md:ml-16 p-5 space-y-5 xl:space-y-4">
             <img src="https://edge.rode.com/images/page/1/modules/5303/NT-USB_Mini_PL_PI_01.svg" alt="">
-            <h1 class=" text-white text-xl xl:text-6xl font-medium">
+            <h1 class=" text-white text-xl xl:text-2xl font-medium 2xl:text-4xl 2xl:font-bold">
                 Compact Sound, Incredibly Powerful
             </h1>
-            <p class="text-white text-sm xl:font-semibold xl:text-4xl">The NT-USB Mini brings pristine
+            <p class="text-white text-sm xl:font-normal xl:text-lg 2xl:text-3xl 2xl:font-semibold">The NT-USB Mini
+                brings pristine
                 studio sound to a compact USB microphone, and with RØDE Connect unlocking more power, more features and
                 more control, it's the perfect recording solution for podcasters, gamers and streamers.</p>
             <div class="buttons space-x-4">
-                <button class="text-[rgb(192,173,126)] xl:text-4xl font-bold">Learn More ></button>
+                <button class="text-[rgb(192,173,126)]  xl:text-lg 2xl:text-2xl font-semibold">Learn More ></button>
                 <button
-                    class="bg-[rgb(192,173,126)] text-white text-xs xl:text-4xl font-bold rounded-2xl px-4 py-2 xl:px-5 xl:py-3 ">BUY
+                    class="bg-[rgb(192,173,126)] text-white text-xs xl:text-lg 2xl:text-2xl font-semibold rounded-3xl px-5 py-1">BUY
                     NOW</button>
             </div>
         </div>
