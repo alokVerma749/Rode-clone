@@ -6,6 +6,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>RØDE Microphones</title>
     <script src="https://cdn.tailwindcss.com"></script>
+    <!-- tailwind configuration -->
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    screens: {
+                        'xl': '1400px',
+                        // => @media (min-width: 992px) { ... }
+                    },
+                },
+            },
+        }
+    </script>
 </head>
 <body>
     <!-- Header -->
