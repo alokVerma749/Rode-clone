@@ -9,36 +9,62 @@
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body>
-    <!-- Header -->
-    <header>
-        <!-- top header -->
-        <div class="border-b-2 hidden md:block p-1 2xl:p-3">
-            <div class="w-10/12 mx-auto md:flex justify-between items-center">
-                <img src="./assets/location.svg" alt="">
-                <img src="./assets/user.svg" alt="">
-            </div>
+    <!-- Top header -->
+    <section
+        class="hidden bg-white xl:flex justify-between items-center px-[68px] py-[5px] mx-2 border-b-[0.5px] border-[#00000028]">
+        <div class="flex gap-1 justify-center items-start">
+            <svg width="13" height="18" viewBox="0 0 13 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                    d="M6.49992 0.557373C3.20963 0.557373 0.537109 3.22533 0.537109 6.49236C0.537109 11.0063 6.49992 17.4359 6.49992 17.4359C6.49992 17.4359 12.4627 11.0063 12.4627 6.49236C12.4627 3.22533 9.79021 0.557373 6.49992 0.557373Z"
+                    stroke="#484848" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"></path>
+                <path
+                    d="M6.50048 9.7315C8.28058 9.7315 9.72362 8.23449 9.72362 6.38784C9.72362 4.54119 8.28058 3.04419 6.50048 3.04419C4.72039 3.04419 3.27734 4.54119 3.27734 6.38784C3.27734 8.23449 4.72039 9.7315 6.50048 9.7315Z"
+                    stroke="#484848" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"></path>
+            </svg>
+            <span class="text-xs text-[rgba(0,0,0,.5)]">EN</span>
         </div>
-        <!-- bottom header -->
-        <div class="flex justify-around items-center p-4 xl:p-10 h-14 bg-white">
-            <img class="md:hidden" src="./assets/icons8-menu-30.png" alt="">
-            <img class="md:hidden" src="./assets/location.svg" alt="">
-            <img class="w-16 xl:w-24 2xl:w-32" src="./assets/logo.svg" alt="" class="logo">
-            <nav class="hidden md:flex flex-row justify-around items-center w-5/12">
-                <li class="list-none text-xs xl:text-base 2xl:text-2xl xl:font-normal 2xl:font-semibold font-medium">
-                    PRODUCTS</li>
-                <li class="list-none text-xs xl:text-base 2xl:text-2xl xl:font-normal 2xl:font-semibold font-medium">
-                    USER
-                    GUIDE</li>
-                <li class="list-none text-xs xl:text-base 2xl:text-2xl xl:font-normal 2xl:font-semibold font-medium">
-                    SOLUTIONS</li>
-                <li class="list-none text-xs xl:text-base 2xl:text-2xl xl:font-normal 2xl:font-semibold font-medium">
-                    APPAREL</li>
-                <li class="list-none text-xs xl:text-base 2xl:text-2xl xl:font-normal 2xl:font-semibold font-medium">
-                    SUPPORT</li>
-            </nav>
-            <img src="./assets/search.svg" alt="">
+        <div>
+            <svg width="16" height="20" viewBox="0 0 16 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                    d="M12.4023 5.21899C12.4023 2.88051 10.4828 1 8.07994 1C5.67702 1 3.76465 2.88051 3.76465 5.21899C3.76465 7.52973 5.68413 9.41023 8.08704 9.41023C10.49 9.41023 12.4023 7.52973 12.4023 5.21899Z"
+                    stroke="#484848" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"></path>
+                <path
+                    d="M1.14071 16.488C0.643067 17.6746 1.52461 19 2.85403 19H13.3117C14.6411 19 15.5226 17.6746 15.025 16.488C13.724 13.4626 11.1007 11.4155 8.0793 11.4155C5.04367 11.4155 2.41326 13.4626 1.14071 16.488Z"
+                    stroke="#484848" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"></path>
+            </svg>
         </div>
-    </header>
+    </section>
+    <!-- bottom header -->
+    <div
+        class="z-10 sticky top-0 flex justify-between items-center bg-white px-[12px] py-[9px] border-b-[0.5px] border-[#00000028] xl:pl-[76px] xl:pr-[92px] xl:pt-[27px] xl:pb-[19px]">
+        <img class="md:hidden" src="./assets/icons8-menu-30.png" alt="">
+        <div class="md:hidden flex gap-1 justify-center items-start">
+            <svg width="13" height="18" viewBox="0 0 13 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                    d="M6.49992 0.557373C3.20963 0.557373 0.537109 3.22533 0.537109 6.49236C0.537109 11.0063 6.49992 17.4359 6.49992 17.4359C6.49992 17.4359 12.4627 11.0063 12.4627 6.49236C12.4627 3.22533 9.79021 0.557373 6.49992 0.557373Z"
+                    stroke="#484848" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"></path>
+                <path
+                    d="M6.50048 9.7315C8.28058 9.7315 9.72362 8.23449 9.72362 6.38784C9.72362 4.54119 8.28058 3.04419 6.50048 3.04419C4.72039 3.04419 3.27734 4.54119 3.27734 6.38784C3.27734 8.23449 4.72039 9.7315 6.50048 9.7315Z"
+                    stroke="#484848" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"></path>
+            </svg>
+            <span class="text-xs text-[rgba(0,0,0,.5)]">EN</span>
+        </div>
+        <img class="w-16 xl:w-24 2xl:w-32" src="./assets/logo.svg" alt="" class="logo">
+        <nav class="hidden md:flex flex-row justify-around items-center w-5/12">
+            <li class="list-none text-xs xl:text-base 2xl:text-2xl xl:font-normal 2xl:font-semibold font-medium">
+                PRODUCTS</li>
+            <li class="list-none text-xs xl:text-base 2xl:text-2xl xl:font-normal 2xl:font-semibold font-medium">
+                USER
+                GUIDE</li>
+            <li class="list-none text-xs xl:text-base 2xl:text-2xl xl:font-normal 2xl:font-semibold font-medium">
+                SOLUTIONS</li>
+            <li class="list-none text-xs xl:text-base 2xl:text-2xl xl:font-normal 2xl:font-semibold font-medium">
+                APPAREL</li>
+            <li class="list-none text-xs xl:text-base 2xl:text-2xl xl:font-normal 2xl:font-semibold font-medium">
+                SUPPORT</li>
+        </nav>
+        <img src="./assets/search.svg" alt="">
+    </div>
 
     <!-- RODE CASTER PRO -->
     <div
