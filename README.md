@@ -20,6 +20,9 @@
   </p>
 </div>
 
+![image](https://github.com/alokVerma749/Rode-clone/assets/87599400/7a99e1e9-d9e1-4888-8ff0-18916f100edb)
+
+
 <!-- TABLE OF CONTENTS -->
 <details>
   <summary>Table of Contents</summary>
